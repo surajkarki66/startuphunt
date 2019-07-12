@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/surajkarki/Desktop/startup-hunt/startuphunt/env"
+VIRTUAL_ENV="/home/surajkarki/Documents/My Files/Python Files/Django Projects/startup-hunt/startuphunt/env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

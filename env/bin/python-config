@@ -1,4 +1,4 @@
-#!/home/surajkarki/Desktop/startup-hunt/startuphunt/env/bin/python
+#!/home/surajkarki/Documents/My Files/Python Files/Django Projects/startup-hunt/startuphunt/env/bin/python
 
 import sys
 import getopt

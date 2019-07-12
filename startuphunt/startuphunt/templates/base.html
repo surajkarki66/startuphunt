@@ -7,10 +7,12 @@
 		<meta name="description" content="">
 		<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
 		<meta name="generator" content="Jekyll v3.8.5">
-		<title>Album example · Bootstrap</title>
+		<title>StartupHunt</title>
 		<link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
 		<!-- Bootstrap core CSS -->
+
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link href="{% static 'open-iconic/font/css/open-iconic-bootstrap.css' %}" rel="stylesheet">
 		<style>
 		.bd-placeholder-img {
 		font-size: 1.125rem;
@@ -43,7 +45,8 @@
 					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 						<div class="navbar-nav ml-auto">
 							{% if user.is_authenticated %}
-								<a class="nav-item nav-link" href="javascript:{document.getElementById('logout').submit()}">Log Out</a> <!-- this can hidden the existing form filled by user -->
+							     <a class="nav-item nav-link" href="{% url 'create' %}"><span class="oi oi-plus"></span></a>
+							     <br><a class="nav-item nav-link" href="javascript:{document.getElementById('logout').submit()}">Log Out</a> <!-- this can hidden the existing form filled by user -->
 								<form id="logout", method="POST" action="{% url 'logout' %}" >
 									
 									{% csrf_token %}
@@ -64,6 +67,7 @@
 			{% endblock %}
 		</div>
 		<footer class="text-muted">
+
 			<div class="container text-center">
 				<p>Copyright Suraj Karki {% now "Y" %}</p>
 				

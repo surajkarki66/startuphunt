@@ -36,7 +36,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/surajkarki/Desktop/startup-hunt/startuphunt/env"
+set -gx VIRTUAL_ENV "/home/surajkarki/Documents/My Files/Python Files/Django Projects/startup-hunt/startuphunt/env"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

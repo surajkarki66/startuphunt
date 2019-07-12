@@ -1,5 +1,6 @@
-#!/home/surajkarki/Desktop/startup-hunt/startuphunt/env/bin/python3.7
-
+#!/bin/sh
+'''exec' "/home/surajkarki/Documents/My Files/Python Files/Django Projects/startup-hunt/startuphunt/env/bin/python3.7" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys
